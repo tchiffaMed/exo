@@ -15,11 +15,11 @@
   <nav class="teal lighten-2 z-depth-3"> 
     <div class="container">
     <div class="nav-wrapper">
-    <a href="#" class="brand-logo">Annour</a>
+    <a href="index.html" class="brand-logo">Annour</a>
     <a href="#" data-target="navsi" class="sidenav-trigger"><i class="material-icons">menu</i></a>
       <ul class="right hide-on-med-and-down ">
       <li class="black-text" ><a href="index.html">Accueil</a></li>
-      <li ><a href="signup.html"><div class="chip">
+      <li ><a href="tableau.html"><div class="chip">
             <img src="i/bib.jpg" alt="Person">
             Moussa Ahmed
           </div></a></li>
@@ -32,16 +32,28 @@
 </nav>
 
 <!--Side bar Mobile-->
-
-
 <ul id="navsi" class="sidenav" >
-  <li class="active" ><a href="index.html">Dashboard</a></li>
-      <li><a href="index.html"><i class="material-icons">home</i>Home</a></li>
-      <li><a href="solutions.html"><i class="material-icons">share</i>se connecter</a></li> 
-      <li><a href="signup.html"><i class="material-icons">people</i>settings</a></li>
-      <li><a class="waves-effect waves-light btn teal accent-5 white-text modal-trigger center-align" data-target="modin" >LOG IN</a></li>
-      
-    </ul>  
+        <li> 
+          <div class="user-view">
+            <div class="background">
+            <img src="i/bib.jpg" alt="" style="width: 300px;">
+            </div>
+            <a href="#!user"><img class="circle cyan lighten-4" src="i/bib.jpg" alt="" style="width: 60px; height: 60px;"></a>
+            <a href="#!name"><span class="white-text name">Moussa Ahmed</span></a>
+            <a href="#!email"><span class="white-text email">Msahmed@gmail.com </span> </a>
+          </div>
+        </li>
+      <li><div class="devider"></div></li>  
+      <li><a href="index.html"><i class="material-icons left">home</i>Home</a></li>
+      <li class="active" ><a href="tableau.html"><i class="material-icons left">view_quilt</i>Dashboard</a></li>
+      <li><a href="all.html"><i class="material-icons left">local_library</i>Bibliothèque</a></li>
+      <li><a href="tableau.html" class="modal-trigger" data-target="modin"><i class="material-icons left">login</i>Se connecter</a></li>
+      <li><a href="tableau.html"><i class="material-icons left">build_circle</i>Settings</a></li>
+      <li class="divider"></li>
+      <li ><a class="grey-text" href="#">Account Controls</a></li> 
+      <li><a href="" class="btn teal accent-4 " >Logout</a></li> 
+    
+    </ul>
 </header>
 
 
@@ -64,7 +76,7 @@
                      <div class="row ">
                             <div class="col s8 l8">
                                     <h4>Welcom, Moussa Ahmed</h4>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, tempora ea? Iure dolore accusantium autem? Dolore a officiis itaque ab ratione ea ipsa officia, facere animi labore totam esse quo?</p>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. aborum,itaque ab ratione etotam  aborum,itaque ab ratione etotam  Laborum,itaque ab ratione etotam esse quo?</p>
                                     <p>Profil  <i class="material-icons">verified</i></p> 
                             </div>
                                 <div class="col s4 l4"><img src="i/un.png" alt="" srcset="" style="width: 100%;"></div>
@@ -113,7 +125,7 @@
                             <div class="card-stacked">
                                 <div class="card-content" style="padding: 0px 10px;">
                                     <h4 style="line-height: 15px;">Payements</h4>
-                                <p>15 Achats effectés <br> Recent: 15 Dec2020</p>
+                                <p>15 Achats effectés ; Recent: 15 Dec2020</p>
                                 </div>
                                 <div class="card-action" style="padding: 5px 10px;">
                                 <span>Payez maintenant</span>
@@ -148,7 +160,7 @@
 
                     <div class="card horizontal shad" style="border-radius: 8px;">
                             <div class="card-image">
-                                <i class="material-icons" style="margin: 40px 2px 30px 20px;">notifications</i>
+                                <i class="material-icons" style="margin: 40px 2px 30px 20px;">person_pin</i>
                             </div>
                             <div class="card-stacked">
                                 <div class="card-content" style="padding: 10px 10px;">
@@ -161,20 +173,20 @@
                             </div>
                             <div class="card horizontal shad" style="border-radius: 8px;">
                                     <div class="card-image">
-                                        <i class="material-icons" style="margin: 40px 2px 30px 20px;">notifications</i>
+                                        <i class="material-icons" style="margin: 40px 2px 30px 20px;">campaign</i>
                                     </div>
                                     <div class="card-stacked">
                                         <div class="card-content" style="padding: 10px 10px;">
                                         <p>Vous devrez terminer la lecture du "Le jeune"</p>
                                         </div>
                                         <div class="card-action" style="padding: 5px 10px;">
-                                        <span class="grey-text">il y'a 5heures</span>
+                                        <span class="grey-text">il y'a 30s</span>
                                         </div>
                                     </div>
                                     </div>
                                         <div class="card horizontal shad" style="border-radius: 8px;">
                                                 <div class="card-image">
-                                                    <i class="material-icons" style="margin: 40px 2px 30px 20px;">notifications</i>
+                                                    <i class="material-icons" style="margin: 40px 2px 30px 20px;">local_library</i>
                                                 </div>
                                                 <div class="card-stacked">
                                                     <div class="card-content" style="padding: 10px 10px;">
@@ -192,7 +204,7 @@
             <div class="card shad" style="border-radius: 8px;">
                     <div class="card-content">
                       <h6 class="card-title">Ma lecture</h6>
-                      <table class="center">
+                      <table class="center responsive-table">
                             <thead>
                                     <tr>
                                       <th class="data-field">Titre</th>
@@ -212,7 +224,7 @@
                              <td class="">
                                     <p class="">7 pages/sem. <i class="material-icons green-text">event_available</i></p>
                             </td>
-                            <td class="center-align"> <a href="#" class="valign-wrapper">100% <i class="material-icons teal-text">military_tech</i></a></td>
+                            <td class="center-align"> <a href="#" class="">100% <i class="material-icons teal-text">emoji_events</i></a></td>
                           </tr>
 
 
@@ -227,7 +239,7 @@
                                  <td class="">
                                         <p class="">7 pages/sem. <i class="material-icons orange-text">event_busy</i></p>
                                 </td>
-                                <td class="center-align"> <a href="#" class="valign-wrapper">17% <i class="material-icons grey-text">donut_large</i></a></td>
+                                <td class="center-align"> <a href="#" class=""> 17% <i class="material-icons grey-text"> emoji_flags</i></a></td>
                               </tr>
 
 
@@ -242,7 +254,7 @@
                                      <td class="">
                                             <p class="">7 pages/sem. <i class="material-icons green-text">event_available</i></p>
                                     </td>
-                                    <td class="center-align"> <a href="#" class="valign-wrapper">100% <i class="material-icons green-text">military_tech</i></a></td>
+                                    <td class="center-align"> <a href="#" class="">100% <i class="material-icons green-text">emoji_events</i></a></td>
                                   </tr>
 
                         </tbody>
