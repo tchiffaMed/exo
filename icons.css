@@ -59,6 +59,11 @@ width: 10%;
   height: 15px;
 
   }
+  .chip > .material-icons { 
+    font-size: 8px;
+    line-height: 7px;
+
+  }
   .card-content p{
     font-size: 10px;
     line-height: 12px;
