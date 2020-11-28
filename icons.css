@@ -55,7 +55,7 @@ width: 10%;
 @media only screen and (max-width: 770px) {
  .chip{
   font-size: 8px;
-  line-height: 12px;
+  line-height: 6px;
   height: 15px;
 
   }
