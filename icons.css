@@ -55,13 +55,13 @@ width: 10%;
 @media only screen and (max-width: 770px) {
  .chip{
   font-size: 8px;
-  line-height: 8px;
+  line-height: 7.5px;
   height: 15px;
 
   }
   .chip > .material-icons { 
     font-size: 8px;
-    line-height: 8px;
+    line-height: 7.5px;
 
   }
   .card-content p{
