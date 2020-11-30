@@ -52,6 +52,31 @@ width: 10%;
         -5px -5px 10px #cccccc5d;
 }
 
+.prefix{
+  background: linear-gradient(to right, #000000, #686767);
+  border-top-left-radius: 3àpx;
+  border-bottom-left-radius: 30px;
+  padding-top: 14px;
+  scroll-padding-left: 5px;
+  height: 57px;
+  width:fit-content;
+  margin-top: -7.5px;
+  left: 0px;
+  color: rgb(4, 160, 160);
+}
+.prefix:focus{
+  color: white;
+}
+#searchInput{
+  border: none;
+  background: white;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  padding-left: 8px;
+  height: 55px;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175)
+}
+
 @media only screen and (max-width: 770px) {
  .chip{
   font-size: 8px;
