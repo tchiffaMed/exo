@@ -38,6 +38,14 @@
   margin-top: -20px;
 }
 
+.beau{
+  border-radius: 20px;
+  margin-bottom: 15px;
+  background: transparent;
+  color:cyan;
+  border: cyan 1px solid;
+}
+
 .im{
 width: 10%;
 }
